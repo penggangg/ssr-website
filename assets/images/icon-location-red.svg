@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-location-red</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新房详情" transform="translate(-1140.000000, -2228.000000)" fill-rule="nonzero" fill="#FB6550">
+            <g id="周边配套" transform="translate(360.000000, 1987.000000)">
+                <g id="Group-4" transform="translate(193.000000, 122.000000)">
+                    <g id="Group-3" transform="translate(587.000000, 119.000000)">
+                        <g id="icon-location-red">
+                            <g id="定位-位置-copy-3">
+                                <path d="M12,0.0150862069 C5.371875,0.0150862069 0,5.20172414 0,11.6012931 C0,14.799569 1.34375,17.6961207 3.515625,19.7931034 L12,27.9849138 L20.484375,19.7931034 C22.65625,17.6961207 24,14.799569 24,11.6012931 C24,5.20172414 18.628125,0.0150862069 12,0.0150862069 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

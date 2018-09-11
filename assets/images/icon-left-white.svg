@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="22px" viewBox="0 0 14 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-left-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新房详情" transform="translate(-378.000000, -1290.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="楼盘相册" transform="translate(360.000000, 1126.000000)">
+                <g id="icon-left-white" transform="translate(18.000000, 164.000000)">
+                    <g id="右" transform="translate(574.500000, 11.000000) scale(-1, 1) translate(-574.500000, -11.000000) translate(0.500000, 0.000000)">
+                        <path d="M1145.72927,10.7728276 C1145.97437,10.9949475 1145.9715,11.3120937 1145.71902,11.5330122 L1136.2337,19.8326696 C1135.96171,20.070662 1135.93415,20.4840854 1136.17214,20.7560766 C1136.41013,21.0280679 1136.82355,21.0556294 1137.09554,20.8176371 L1146.58087,12.5179797 C1147.42223,11.7817834 1147.43337,10.5508853 1146.60815,9.80302874 L1137.10406,1.18994718 C1136.83626,0.947251104 1136.42242,0.967603957 1136.17972,1.2354065 C1135.93703,1.50320908 1135.95738,1.91704997 1136.22518,2.1597461 L1145.72927,10.7728276 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

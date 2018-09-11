@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="写字楼详情-出售" transform="translate(-1048.000000, -616.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-5" transform="translate(360.000000, 176.000000)">
+                <g id="icon-right" transform="translate(688.000000, 440.000000)">
+                    <path d="M11.7292716,10.7728276 C11.9743693,10.9949475 11.9714996,11.3120937 11.7190212,11.5330122 L2.23369844,19.8326696 C1.96170718,20.070662 1.93414564,20.4840854 2.17213794,20.7560766 C2.41013034,21.0280679 2.82355371,21.0556294 3.09554494,20.8176371 L12.5808677,12.5179797 C13.422235,11.7817834 13.4333728,10.5508853 12.6081517,9.80302874 L3.10406178,1.18994718 C2.8362592,0.947251104 2.42241831,0.967603957 2.17972221,1.2354065 C1.93702617,1.50320908 1.95737902,1.91704997 2.22518156,2.1597461 L11.7292716,10.7728276 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
