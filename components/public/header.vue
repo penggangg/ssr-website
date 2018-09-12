@@ -5,14 +5,14 @@
           <div class="col-md-2 text-right logo"><img src="../../assets/images/logo.png" alt="" srcset=""></div>
           <div class="col-md-1 citySwicth">
             <img src="../../assets/images/icon-location.svg" alt="" srcset="">
-            <router-link  :to="{ path: '/', query: { code: 3 }}" :class="{ active: $route.query.code == 3 }" tag="span">上海</router-link>
+            <nuxt-link  :to="{ path: '/', query: { code: 3 }}" :class="{ active: $route.query.code == 3 }" tag="span">上海</nuxt-link>
             <span>|</span>
-            <router-link  :to="{ path: '/', query: { code: 2 }}"  :class="{ active: $route.query.code == 2 || !$route.query.code }"   tag="span">北京</router-link>
+            <nuxt-link  :to="{ path: '/', query: { code: 2 }}"  :class="{ active: $route.query.code == 2 || !$route.query.code }"   tag="span">北京</nuxt-link>
           </div>
           <ul class="row col-md-7 nav" >
-            <router-link v-for="(item, index) in arrPath" :key="index" :class="{ active: $route.meta.activeClass === item.activeClass}" :to="{ path: `/${item.path}`, query: { code }}" tag="li" >{{item.name}}</router-link>
+            <nuxt-link v-for="(item, index) in arrPath" :key="index" :class="{ active: $route.meta.activeClass === item.activeClass}" :to="{ path: `/${item.path}`, query: { code: 2 }}" tag="li" >{{item.name}}</nuxt-link>
           </ul>
-          <div class="col-md-2 text-right tel">服务热线： 400-888-8888 {{ $route.meta.activeClass }}</div>
+          <div class="col-md-2 text-right tel">服务热线： 400-888-8888 {{ $route.meta.activeClass }} {{$store.state.code.code}}</div>
         </div>
         <div class="visible-sm-block visible-xs-block">
         </div>
@@ -75,14 +75,12 @@ export default {
     }
   },
   mounted () {
-    console.log(this.code)
+    console.log(this.$store.state.code.code)
   },
-  computed: {
-    code1 () {
-      return this.code
+  watch: {
+    '$store.state.code.code' () {
+      console.log('请求数据')
     }
-  },
-  async created () {
   }
 }
 </script>
@@ -90,9 +88,8 @@ export default {
 @import '../../assets/css/mixin';
 .container-fluid {
   background: #303035;
-  height: 50px;
   &.blackNone {
-    background: #ccc;
+    background: none;
   }
 }
 .header-pc{

@@ -29,8 +29,12 @@ module.exports = {
     }
   ],
   plugins: [
-    { src: '~plugins/js/common.js', ssr: false }
+    { src: '~/plugins/js/route', ssr: false}
   ],
+  // 环境变量
+	env: {
+		baseUrl: process.env.BASE_URL || 'http://172.18.3.124:3000'
+	},
   router: {
     extendRoutes (routes) {
       routes.push({
@@ -49,6 +53,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['axios'],
     /*
     ** Run ESLint on save
     */
@@ -62,6 +67,20 @@ module.exports = {
         })
       }
     }
-  }
+  },
+   // 跨域处理
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
+  ],
+  proxy: [
+    [
+      '/api',
+      {
+        target: 'http://api.hewuchina.com', // api主机
+        pathRewrite: { '/api': '' }
+      }
+    ]
+  ]
 }
 
